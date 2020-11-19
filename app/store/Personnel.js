@@ -5,12 +5,29 @@ Ext.define('ExtComponents.store.Personnel', {
 
     model: 'ExtComponents.model.Personnel',
 
-    data: { items: [
-        { name: 'Jean Luc', email: "jeanluc.picard@enterprise.com", phone: "555-111-1111" },
-        { name: 'Worf',     email: "worf.moghsson@enterprise.com",  phone: "555-222-2222" },
-        { name: 'Deanna',   email: "deanna.troi@enterprise.com",    phone: "555-333-3333" },
-        { name: 'Data',     email: "mr.data@enterprise.com",        phone: "555-444-4444" }
-    ]},
+    data: {
+        items: [
+            { name: 'Simple Text Field', view: "View", fieldXtype: 'extcomponents-simpletextfield' },
+            { name: 'Number Field', view: "View", fieldXtype: 'extcomponents-numberfield' },
+            { name: 'CheckBox Field', view: "View", fieldXtype: 'extcomponents-checkbox' },
+            { name: 'CheckBoxGroup', view: "View", fieldXtype: 'extcomponents-checkboxgroup' },
+            { name: 'ComboBox', view: "View", fieldXtype: 'extcomponents-combobox' },
+            { name: 'Container', view: "View", fieldXtype: 'extcomponents-containerfield' },
+            { name: 'DateField', view: "View", fieldXtype: 'extcomponents-datefield' },
+            { name: 'EmailField', view: "View", fieldXtype: 'extcomponents-emailfield' },
+            { name: 'PasswordField', view: "View", fieldXtype: 'extcomponents-passwordfield' },
+            { name: 'RadioField', view: "View", fieldXtype: 'extcomponents-radiofield' },
+            { name: 'RadioGroup', view: "View", fieldXtype: 'extcomponents-radiogroup' },
+            { name: 'Spinner', view: "View", fieldXtype: 'extcomponents-spinner' },
+            { name: 'Select', view: "View", fieldXtype: 'extcomponents-select' },
+            { name: 'Time', view: "View", fieldXtype: 'extcomponents-time' },
+            { name: 'URL', view: "View", fieldXtype: 'extcomponents-urlfield' },
+            { name: 'File', view: "View", fieldXtype: 'extcomponents-filefield' },
+            { name: 'TextArea', view: "View", fieldXtype: 'extcomponents-textareafield' },
+            { name: 'HtmlEditor', view: "View", fieldXtype: 'extcomponents-htmleditorfield' },
+            { name: 'Tags', view: "View", fieldXtype: 'extcomponents-tagfield' },
+        ]
+    },
 
     proxy: {
         type: 'memory',
