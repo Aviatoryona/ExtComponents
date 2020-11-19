@@ -11,6 +11,8 @@ Ext.define('ExtComponents.view.textfields.Select', {
     title: 'Select Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -23,7 +25,6 @@ Ext.define('ExtComponents.view.textfields.Select', {
                     allowBlank: false,
                     name: 'fieldName',
                     placeholder: 'Enter value here...',
-                    id: 'fieldId',
                     required: true,
                     errorMessage: 'Please enter a value',
                     options: [

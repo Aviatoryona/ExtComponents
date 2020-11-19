@@ -9,6 +9,8 @@ Ext.define('ExtComponents.view.textfields.TagField', {
     title: 'Tag Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -21,7 +23,6 @@ Ext.define('ExtComponents.view.textfields.TagField', {
                     name: 'fieldName',
                     fieldLabel: 'Select countries',
                     placeholder: 'Type here...',
-                    id: 'fieldId',
                     required: true,
                     displayField: 'show',
                     valueField: 'id',

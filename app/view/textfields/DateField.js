@@ -9,6 +9,8 @@ Ext.define('ExtComponents.view.textfields.DateField', {
     title: 'Date Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -21,7 +23,6 @@ Ext.define('ExtComponents.view.textfields.DateField', {
                     allowBlank: false,
                     name: 'fieldName',
                     placeholder: 'Enter value here...',
-                    id: 'fieldId',
                     required: true,
                     minDate: new Date(1985,01,01),
                     maxDate: new Date(),

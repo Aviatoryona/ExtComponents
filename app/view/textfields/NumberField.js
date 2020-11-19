@@ -10,6 +10,8 @@ Ext.define('ExtComponents.view.textfields.NumberField', {
     title: 'Number Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -22,7 +24,6 @@ Ext.define('ExtComponents.view.textfields.NumberField', {
                     allowBlank: false,
                     name: 'fieldName',
                     placeholder: 'Enter value here...',
-                    id: 'fieldId',
                     required: true,
                     minValue:0,
                     value:65,

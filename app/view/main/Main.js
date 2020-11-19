@@ -12,7 +12,6 @@ Ext.define('ExtComponents.view.main.Main', {
         'Ext.layout.Fit'
     ],
 
-    controller: 'main',
     viewModel: 'main',
 
     defaults: {

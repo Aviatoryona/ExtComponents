@@ -9,6 +9,8 @@ Ext.define('ExtComponents.view.textfields.RadioField', {
     title: 'Radio Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -25,7 +27,6 @@ Ext.define('ExtComponents.view.textfields.RadioField', {
                             label: 'Option A',
                             checked: true,
                             name: 'fieldName',
-                            id: 'fieldId',
                             value: 'Option A'
                         },
                         {

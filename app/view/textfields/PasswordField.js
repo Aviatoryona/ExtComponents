@@ -9,6 +9,8 @@ Ext.define('ExtComponents.view.textfields.PasswordField', {
     title: 'Password Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -21,7 +23,6 @@ Ext.define('ExtComponents.view.textfields.PasswordField', {
                     allowBlank: false,
                     name: 'fieldName',
                     placeholder: 'Enter value here...',
-                    id: 'fieldId',
                     required: true,
                     errorMessage: 'Please enter a value'
                 }

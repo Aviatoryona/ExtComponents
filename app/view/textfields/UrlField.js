@@ -9,6 +9,8 @@ Ext.define('ExtComponents.view.textfields.UrlField', {
     title: 'URL Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -21,7 +23,6 @@ Ext.define('ExtComponents.view.textfields.UrlField', {
                     allowBlank: false,
                     name: 'fieldName',
                     placeholder: 'Enter URL here...',
-                    id: 'fieldId',
                     required: true,
                     errorMessage: 'Please URL a value'
                 }

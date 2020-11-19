@@ -9,6 +9,8 @@ Ext.define('ExtComponents.view.textfields.ContainerField', {
     title: 'Container Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -23,7 +25,6 @@ Ext.define('ExtComponents.view.textfields.ContainerField', {
                             xtype: 'combobox',
                             label: 'Select Country',
                             name: 'fieldName',
-                            id: 'fieldId',
                             required: true,
                             queryMode: 'local',
                             displayField: 'name',

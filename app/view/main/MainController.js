@@ -9,19 +9,26 @@ Ext.define('ExtComponents.view.main.MainController', {
 
     onItemSelected: function (sender, record) {
         // Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
-        var me = this;
-        var record = getItemSelected();
+      var record = this.getItemSelected();
         if (record) {
-            console.log(record.fieldXtype);
+        
+            var x_type=record.fieldXtype;
+            console.log('Xtype:  '+ x_type);
+            Ext.widget(x_type).show();
+            // Ext.create({
+            //     xtype:x_type
+            // });
         }
     },
 
     getItemSelected: function () {
         var me = this;
-        var data = me.getView().getSelectionModel().getSelection();
-        if (data) {
-            return data[0];
+        var row = me.getView().getSelection();
+        if (row) {
+            // console.log(row.data);
+            return row.data;
         }
+        
     },
 
     onConfirm: function (choice) {

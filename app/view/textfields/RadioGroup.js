@@ -9,6 +9,8 @@ Ext.define('ExtComponents.view.textfields.RadioGroup', {
     title: 'CheckBox Group',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -24,7 +26,6 @@ Ext.define('ExtComponents.view.textfields.RadioGroup', {
                             label: 'Option A',
                             checked: true,
                             name: 'fieldName',
-                            id: 'fieldId',
                             value: 'Option A'
                         },
                         {

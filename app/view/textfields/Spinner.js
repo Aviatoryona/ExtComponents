@@ -9,6 +9,8 @@ Ext.define('ExtComponents.view.textfields.Spinner', {
     title: 'Spinner Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -20,11 +22,10 @@ Ext.define('ExtComponents.view.textfields.Spinner', {
                     label: 'Spinner Field',
                     allowBlank: false,
                     cycle: true,
-                    minValue0,
+                    minValue: 0,
                     maxValue: 1000,
                     stepValue: 10,
                     name: 'fieldName',
-                    id: 'fieldId',
                     required: true,
                     errorMessage: 'Please enter a value'
                 }

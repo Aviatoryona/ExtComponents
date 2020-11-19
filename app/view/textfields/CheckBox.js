@@ -11,6 +11,8 @@ Ext.define('ExtComponents.view.textfields.CheckBox', {
     title: 'CheckBox Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -22,7 +24,6 @@ Ext.define('ExtComponents.view.textfields.CheckBox', {
                     label: 'Option A',
                     checked: true,
                     name: 'fieldName',
-                    id: 'fieldId',
                     value: 'Option A'
                 },
                 {

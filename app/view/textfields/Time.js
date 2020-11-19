@@ -9,6 +9,8 @@ Ext.define('ExtComponents.view.textfields.Time', {
     title: 'Time Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -21,7 +23,6 @@ Ext.define('ExtComponents.view.textfields.Time', {
                     allowBlank: false,
                     name: 'fieldName',
                     placeholder: 'Enter value here...',
-                    id: 'fieldId',
                     required: true,
                     value:'01:00 PM',
                     errorMessage: 'Please enter a value'

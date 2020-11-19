@@ -10,6 +10,8 @@ Ext.define('ExtComponents.view.textfields.ComboBox', {
     title: 'ComboxBox Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -20,7 +22,6 @@ Ext.define('ExtComponents.view.textfields.ComboBox', {
                     xtype: 'combobox',
                     label: 'Select Country',
                     name: 'fieldName',
-                    id: 'fieldId',
                     required: true,
                     queryMode: 'local',
                     displayField: 'name',

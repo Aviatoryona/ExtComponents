@@ -9,6 +9,8 @@ Ext.define('ExtComponents.view.textfields.TextAreaField', {
     title: 'TextArea Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -21,7 +23,6 @@ Ext.define('ExtComponents.view.textfields.TextAreaField', {
                     allowBlank: false,
                     name: 'fieldName',
                     placeholder: 'Message...',
-                    id: 'fieldId',
                     required: true,
                     maxRows: 8,
                     errorMessage: 'Please enter a value'

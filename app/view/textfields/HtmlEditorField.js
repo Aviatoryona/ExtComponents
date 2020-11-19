@@ -5,10 +5,12 @@ Ext.define('ExtComponents.view.textfields.HtmlEditorField', {
      
     shadow: true,
     frame: true,
-    width: 400,
+    width: 600,
     title: 'Html Field',
     modal: true,
     autoshow: true,
+    closable:true,
+  
 
     items: [
         {
@@ -20,7 +22,6 @@ Ext.define('ExtComponents.view.textfields.HtmlEditorField', {
                     allowBlank: false,
                     name: 'fieldName',
                     placeholder: 'Type here...',
-                    id: 'fieldId',
                     required: true,
                 }
             ],
