@@ -10,8 +10,7 @@ Ext.define('ExtComponents.view.textfields.ContainerField', {
     modal: true,
     autoshow: true,
     closable:true,
-  
-
+    
     items: [
         {
             xtype: 'fieldset',

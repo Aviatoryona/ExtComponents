@@ -24,8 +24,8 @@ Ext.define('ExtComponents.store.Personnel', {
             { name: 'URL', view: "View", fieldXtype: 'extcomponents-urlfield' },
             { name: 'File', view: "View", fieldXtype: 'extcomponents-filefield' },
             { name: 'TextArea', view: "View", fieldXtype: 'extcomponents-textareafield' },
-            { name: 'HtmlEditor', view: "View", fieldXtype: 'extcomponents-htmleditorfield' },
             { name: 'Tags', view: "View", fieldXtype: 'extcomponents-tagfield' },
+            { name: 'HtmlEditor', view: "View", fieldXtype: 'extcomponents-htmleditorfield' },
         ]
     },
 
